@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: montserrat;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px;
+    }
+
+    body div {
+      margin: 30px 0;
+    }
+
+    body div h3 {
+      color: grey;
+      margin-bottom: 10px;
+    }
+
+    .table td,
+    .table2 td,
+    .table3 td,
+    .table4 td,
+    .table5 {
+      padding: 5px 10px !important;
+    }
+
+    .table {
+      border: 1px solid black;
+    }
+
+    .table td,
+    .table th {
+      border: 1px solid black;
+    }
+
+    .table3,
+    .table3 {
+      width: 600px;
+    }
+
+    .table3 tbody tr td {
+      padding: 10px;
+    }
+
+    .table3 tbody tr:nth-child(odd) {
+      background-color: #cccccc;
+    }
+
+    .table4,
+    .table4 th,
+    .table4 td {
+      border: 1px solid black;
+    }
+
+    .table5 th,
+    .table5 td {
+      padding: 0 20px;
+    }
+
+    .table5 {
+      border-spacing: 0;
+      text-align: left;
+    }
+
+    .table5 thead {
+      background-color: #D0EAE4;
+    }
+
+    .table5 th,
+    .table5 td {
+      padding: 10px 20px;
+    }
+
+    .table5 thead th:last-child {
+      border-radius: 0 20px 0 0;
+    }
+
+    .table5 thead th:first-child {
+      border-radius: 20px 0 0 0;
+    }
+
+    .table5 tbody tr:last-child {
+      background-color: #f2f2f2f2;
+    }
+
+    .table5 tbody tr:last-child td:last-child {
+      border-radius: 0 0 20px;
+    }
+
+    .table5 tbody tr:last-child td:first-child {
+      border-radius: 0 0 0 20px;
+    }
+
+    .table6 {
+      text-align: left;
+      border-collapse: collapse;
+    }
+
+    .table6 td,
+    .table6 th {
+      border: 1px solid black;
+      padding: 10px 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="">
+      <h3>Table 1</h3>
+      <table class="table table">
+        <thead>
+          <tr>
+            <th colspan="2">Birthday List</th>
+          </tr>
+          <tr>
+            <th>Name</th>
+            <th>Birthday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>December 6, 2000</td>
+          </tr>
+          <tr>
+            <td>Jane Doe</td>
+            <td>December 6, 2000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="">
+      <h3>Table 2</h3>
+      <table class="table2 table">
+        <thead>
+          <tr>
+            <th>Course Number</th>
+            <th>Course Name</th>
+            <th>Intructor Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CSIT 227</td>
+            <td>Object Oriented Programming</td>
+            <td>Jay Vince Seratoy</td>
+          </tr>
+          <tr>
+            <td>CSIT 231</td>
+            <td>Web Development</td>
+            <td>Patrick Bacalso</td>
+          </tr>
+          <tr>
+            <td>CSIT 213</td>
+            <td>Discrete Structures 2</td>
+            <td>Catherine Arellano</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="">
+      <h3>Table 3</h3>
+      <table class="table3">
+        <thead>
+          <tr>
+            <th>Favorite Movie</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The Interview</td>
+            <td>Seth Rogen and James Franco star in this
+              provocative comedy about two journalists recruited by
+              the CIA after they arrange an interview with Kim Jong-un.</td>
+          </tr>
+          <tr>
+            <td>Scary Movie</td>
+            <td>The parody film Scary Movie is full of laughs,
+              but the comedy's real hit-and-miss.
+              The main story parodies Scream
+              and I Know What You Did Last Summer</td>
+          </tr>
+          <tr>
+            <td>Three Idiots</td>
+            <td>Two friends are searching for their long lost companion.
+              They revisit their college days and recall
+              the memories of their friend who inspired them to think</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="">
+      <h3>Table 4</h3>
+      <table class="table4">
+        <thead>
+          <tr>
+            <th>Favorite Movie</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The Interview</td>
+            <td>Seth Rogen and James Franco star in this
+              provocative comedy about two journalists recruited by
+              the CIA after they arrange an interview with Kim Jong-un.</td>
+          </tr>
+          <tr>
+            <td>Scary Movie</td>
+            <td>The parody film Scary Movie is full of laughs,
+              but the comedy's real hit-and-miss.
+              The main story parodies Scream
+              and I Know What You Did Last Summer</td>
+          </tr>
+          <tr>
+            <td>Three Idiots</td>
+            <td>Two friends are searching for their long lost companion.
+              They revisit their college days and recall
+              the memories of their friend who inspired them to think</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3>Table 5</h3>
+      <table class="table5">
+        <thead>
+          <tr>
+            <th>Title of the movie</th>
+            <th>Director or producer</th>
+            <th>Lead actor</th>
+            <th>Lead actress</th>
+            <th class="rating">Rating (G, PG, PG-13, R, NC-17, NR)</th>
+            <th>Description </th>
+            <th>Absolute Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Three Idiots</td>
+            <td>Vidhu Vinod Chopra</td>
+            <td>Aamir Khan</td>
+            <td>Kareena Kapoor</td>
+            <td>PG-13</td>
+            <td>Two friends are searching for their long lost companion.
+              They revisit their college days and recall
+              the memories of their friend who inspired them to think</td>
+            <td><a target="_blank" href="https://www.rottentomatoes.com/m/3_idiots">Review</a></td>
+          </tr>
+          <tr>
+            <td>Transformers</td>
+            <td>Michael Bay</td>
+            <td>Shia LaBeouf</td>
+            <td>Megan Fox</td>
+            <td>PG-13</td>
+            <td>The fate of humanity is at stake when two races of robots, the good
+              Autobots and the villainous Decepticons, bring their war to Earth.</td>
+            <td><a target="_blank" href="https://www.imdb.com/title/tt0418279/">Review</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3>Table 6</h3>
+      <table class="table6">
+        <thead>
+          <tr>
+            <th colspan="3">Ingredients</th>
+          </tr>
+          <tr>
+            <th colspan="3">Adobo Recipe</th>
+          </tr>
+          <tr>
+            <th>Qty</th>
+            <th>Details</th>
+            <th colspan="2">Instructions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2</td>
+            <td>lbs pork belly</td>
+            <td>1. Combine the pork belly, soy sauce, and garlic then marinade for at least 1 hour</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>tablespoons garlic minced or crushed</td>
+            <td>2. Heat the pot and put-in the marinated pork belly then cook for a few minutes</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>dried bay leaves</td>
+            <td>3. Pour remaining marinade including garlic.</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>tablespoons vinegar</td>
+            <td>4. Add water, whole pepper corn, and dried bay leaves then bring to a boil. Simmer for 40 minutes to 1 hour</td>
+          </tr>
+          <tr>
+            <td>1/2</td>
+            <td>cup soy sauce</td>
+            <td>5. Put-in the vinegar and simmer for 12 to 15 minutes</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>tablespoon peppercorn</td>
+            <td>6. Add salt to taste</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>cups water</td>
+            <td>7. Serve hot. Share and enjoy!</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <address>Email me at: <a href="mailto:luckyjonesbuayan@gmail.com">luckyjonesbuayan@gmail.com</a></address>
+  </main>
+</body>
+
+</html>
