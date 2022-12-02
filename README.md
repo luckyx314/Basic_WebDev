@@ -1,3 +1,3 @@
 # Basic_WebDev
 
-Web dev course --a waste of time.
+excruciatingly simple web dev course --a waste of time.
